@@ -1,6 +1,7 @@
 using Battleship.Application;
 using Battleship.Infrastructure;
 using Battleship.WebApp.Components;
+using MudBlazor.Services;
 
 namespace Battleship.WebApp;
 
@@ -13,6 +14,8 @@ public class Program
         // Add services to the container.
         builder.Services.AddRazorComponents()
             .AddInteractiveServerComponents();
+        
+        builder.Services.AddMudServices();
         
         builder.Services.AddApplicationServices();
         builder.Services.AddInfrastructureServices();
