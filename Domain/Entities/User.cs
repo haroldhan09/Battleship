@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Battleship.Persistence.Entities;
+namespace Battleship.Entities.Data;
 
 [Table("User")]
 public class User

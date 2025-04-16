@@ -1,5 +1,5 @@
-﻿using Battleship.Persistence.Entities;
-using Battleship.Domain.Users.Password;
+﻿using Battleship.Domain.Users.Password;
+using Battleship.Entities.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace Battleship.Persistence.Data.Seeding;

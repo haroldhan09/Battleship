@@ -1,6 +1,6 @@
 ﻿using Battleship.Application.Data;
+using Battleship.Entities.Data;
 using Battleship.Persistence.Data.Seeding;
-using Battleship.Persistence.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 

@@ -1,4 +1,4 @@
-﻿using Battleship.Persistence.Entities;
+﻿using Battleship.Entities.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace Battleship.Application.Data;
